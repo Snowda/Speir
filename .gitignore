@@ -1,4 +1,5 @@
 # Built application files
+/*/build/
 *.apk
 *.ap_
 
@@ -25,3 +26,48 @@ proguard/
 
 # Log Files
 *.log
+
+# Signing files
+.signing/ 
+
+.idea/
+*.iml
+.gradle
+local.properties
+
+
+*.keystore
+
+# Crashlytics plugin (for Android Studio and IntelliJ)
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+
+manifest-merger-release-report.txt
+
+/local.properties 
+/.idea/libraries 
+
+# User-specific configurations
+.idea/libraries/
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/.name
+.idea/compiler.xml
+.idea/copyright/profiles_settings.xml
+.idea/encodings.xml
+.idea/misc.xml
+.idea/modules.xml
+.idea/scopes/scope_settings.xml
+.idea/vcs.xml
+*.iml 
+
+# OS-specific files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+
+manifest-merger-release-report.txt
