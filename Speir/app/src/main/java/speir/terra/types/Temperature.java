@@ -5,13 +5,14 @@ public class Temperature implements WeatherType {
     private Double reading;
 
     public Temperature() {
-
+        setMetric();
     }
 
-    public static Double getTemperature(){
+    public Double getTemperature(){
         return reading;
     }
 
+    public Double getdaily
     public void setUnit(boolean new_unit) {
         system_unit = new_unit;
     }
